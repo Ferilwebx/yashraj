@@ -1,0 +1,40 @@
+{
+  "name": "SiteSetting",
+  "type": "object",
+  "properties": {
+    "company_name": {
+      "type": "string"
+    },
+    "website_logo": {
+      "type": "string",
+      "description": "URL of the website logo image uploaded via admin"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "google_map_embed": {
+      "type": "string"
+    },
+    "social_facebook": {
+      "type": "string"
+    },
+    "social_twitter": {
+      "type": "string"
+    },
+    "social_linkedin": {
+      "type": "string"
+    },
+    "social_instagram": {
+      "type": "string"
+    },
+    "working_hours": {
+      "type": "string"
+    }
+  }
+}

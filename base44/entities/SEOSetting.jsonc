@@ -1,0 +1,24 @@
+{
+  "name": "SEOSetting",
+  "type": "object",
+  "properties": {
+    "website_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "og_image": {
+      "type": "string"
+    },
+    "google_verification": {
+      "type": "string"
+    },
+    "robots": {
+      "type": "string"
+    },
+    "favicon": {
+      "type": "string"
+    }
+  }
+}

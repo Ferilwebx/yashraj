@@ -1,0 +1,63 @@
+{
+  "name": "RFQ",
+  "type": "object",
+  "properties": {
+    "customer_name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "product_required": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "process": {
+      "type": "string"
+    },
+    "alloy": {
+      "type": "string"
+    },
+    "drawing_url": {
+      "type": "string"
+    },
+    "pdf_url": {
+      "type": "string"
+    },
+    "cad_url": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "new",
+        "reviewing",
+        "quoted",
+        "accepted",
+        "rejected"
+      ],
+      "default": "new"
+    },
+    "admin_notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "customer_name",
+    "email"
+  ]
+}

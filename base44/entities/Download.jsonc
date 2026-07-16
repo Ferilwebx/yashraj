@@ -1,0 +1,63 @@
+{
+  "name": "Download",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Document title shown on the downloads page"
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of the document content"
+    },
+    "file_url": {
+      "type": "string",
+      "description": "URL to the downloadable file (empty if not yet uploaded)"
+    },
+    "file_type": {
+      "type": "string",
+      "enum": [
+        "pdf",
+        "doc",
+        "docx",
+        "xls",
+        "xlsx",
+        "step",
+        "stp",
+        "iges",
+        "dwg",
+        "dxf",
+        "zip",
+        "other"
+      ],
+      "default": "pdf"
+    },
+    "file_size": {
+      "type": "string",
+      "description": "Human-readable file size (e.g. 4.2 MB)"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "company",
+        "capability",
+        "certificate",
+        "technical",
+        "quality",
+        "other"
+      ],
+      "default": "other"
+    },
+    "sort_order": {
+      "type": "number",
+      "default": 0
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "title"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "MediaItem",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "file_type": {
+      "type": "string"
+    },
+    "folder": {
+      "type": "string",
+      "default": "general"
+    },
+    "size_kb": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "name",
+    "url"
+  ]
+}
